@@ -12,6 +12,7 @@ const app = new Vue({
         done: false
       });
       this.newTodo = '';
+      console.log(this.todos);
     },
     removeTodo(todo) {
       const todoIndex = this.todos.indexOf(todo);
