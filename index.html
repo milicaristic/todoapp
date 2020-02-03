@@ -9,9 +9,9 @@
     <main id="app">
       
       <h2 class="noto">{{title}}</h2>
-      <form @submit.prevent="addTodo">
+      <form @submit.prevent="addTodo" >
         <input  v-model="newTodo" type="text" name="newTodo" id="newTodo" value="">
-        <button type="submit" name="button" class="noto btn" >Dodaj</button>
+        <button type="submit" name="button" class="noto btn">Dodaj</button>
       </form>
       <button @click="allDone" type="button" name="button" class="noto btn">Sve završeno</button>
       <div id="todos">
